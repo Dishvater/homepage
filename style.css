@@ -1,0 +1,24 @@
+body {
+    background: #4e50d6;
+}
+
+.title {
+    color: red;
+}
+
+.mainHeader {
+    color: red;
+    font-size: 30px;
+}
+
+.sectionHeader {
+    color: #1468aa;
+}
+
+h3 {
+    color: darkgreen;
+}
+
+.mainHeader a {
+    text-decoration: none;
+}
