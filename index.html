@@ -10,23 +10,25 @@
 </head>
 
 <body>
-	<header class="mainHeader">
-		<a class="link" href="index.html">Strona główna</a>
-		<a class="link" href="podstrona.html">Podstrona</a>
-		<a class="link" href="poniedzialek.html">Poniedziałek</a>
-		<a class="link" href="Wtorek.html">Wtorek</a>
-		<a class="link" href="Środa.html">Środa</a>
-		<a class="link" href="Czwartek.html">Czwartek</a>
-		<a class="link" href="Piątek.html">Piątek</a>
-		<a class="link" href="Sobota.html">Sobota</a>
-		<a class="link" href="Niedziela.html">Niedziela</a>
+	<header id="top" class="mainHeader">
+		<a class="navigation__link" href="index.html">Strona główna</a><br>
+		<a class="navigation__link" href="podstrona.html">Podstrona</a><br>
+		<a class="navigation__link" href="poniedzialek.html">Poniedziałek</a><br>
+		<a class="navigation__link" href="Wtorek.html">Wtorek</a><br>
+		<a class="navigation__link" href="Środa.html">Środa</a><br>
+		<a class="navigation__link" href="Czwartek.html">Czwartek</a><br>
+		<a class="navigation__link" href="Piątek.html">Piątek</a><br>
+		<a class="navigation__link" href="Sobota.html">Sobota</a><br>
+		<a class="navigation__link" href="Niedziela.html">Niedziela</a><br>
 	</header>
 	<main>
 		<h1 class="title">
 			Wojciech Wawrzyniak - Strona domowa
 		</h1>
 		<section class="about">
-			<h2 class="sectionHeader" id="sec3">Kim jestem?</h2>
+			<div class="box">co ten frontend</div>
+			<div class="boxTest">co ten frontend</div>
+			<h2 class="about__Header" id="sec3">Kim jestem?</h2>
 			<p>
 				Cześć, na codzień fantazjuje o dalekich sprawach i innym życiu.
 				<br>
@@ -39,8 +41,8 @@
 			</p>
 			<span>asdasd</span>
 		</section>
-		<section>
-			<h2  class="diaryHeader" id="pamietniczek">Pamiętniczek</h2>
+		<section class="diary">
+			<h2  class="diary__Header" id="pamietniczek">Pamiętniczek</h2>
 			<section>
 				<h3 class="thirdHeader">jak <u>stworzyć</u> prawidłowego HTML-a?</h3>
 				<p>Tworzenie <b>zgodnego</b> ze standardem <i>HTML-a</i> to <strong>sztuka</strong>, którą do perfekcji
@@ -76,7 +78,7 @@
 		</section>
 	</main>
 	<footer>
-		Strona domowa Wojtka W., wszystkie treści są efektem tworzenia szkolenia WTF: co ten frontend.
+		<a href="#top" class="top">na górę</a>Strona domowa Wojtka W., wszystkie treści są efektem tworzenia szkolenia WTF: co ten frontend.
 	</footer>
 	<script src="main.js">
 	</script>

@@ -11,9 +11,14 @@ body {
 .mainHeader {
     color: #00487c;
     font-size: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 16px;
 }
 
-.sectionHeader, .diaryHeader {
+.about__Header, .diary__Header {
     color: #1468aa;
 }
 
@@ -25,7 +30,7 @@ h3 {
     color: #0496ff;
 }
 
-.link {
+.navigation__link {
     color: #1a936f;
     text-decoration: none;
 }
@@ -33,6 +38,7 @@ h3 {
 .about {
     width: 50vw;
     max-width: 700px;
+    position: relative;
    
 }
 
@@ -50,3 +56,40 @@ main {
     margin: 50px auto;
 }
 
+.box, .boxTest {
+    width: 100px;
+    height: 100px;
+    background: yellowgreen;
+    padding: 10px;
+    border: solid 10px red;
+    margin: 10px;
+    position: fixed;
+    box-sizing: border-box;
+    top: 50px;
+    left: 100px;
+    z-index: 1;
+    position: sticky;
+}
+
+.box {
+    z-index: 2;
+    position: fixed;
+    left: 30%;
+    top: 180px;
+}
+
+.boxTest {
+    width: 100px;
+    height: 100px;
+    background: rgb(205, 73, 50);
+    padding: 10px;
+    border: solid 10px red;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.top {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
