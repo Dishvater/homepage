@@ -1,4 +1,4 @@
-const heading = document.querySelector('.heading');
-console.log(heading);
-const box = document.querySelector('.box');
-box.innerHTML="szary szczaw";
+const imię = prompt("jakie jest twoje imię?");
+const wiek = prompt("ile masz lat?");
+console.log(imię, wiek);
+window.alert(`witaj ${imię} lat ${wiek}`);
